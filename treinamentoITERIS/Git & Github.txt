@@ -1,0 +1,20 @@
+git init		// Inicializa um repositório
+git clone <url> 	// Clona um repositório
+------------------------------------------------------
+
+Working Directory - Contém os arquivos vigentes.
+Index - Funciona como área temporária
+Head - Aponta para o último commit
+
+------------------------------------------------------
+
+git add <arquivo>	    // Adiciona arquivo específico.
+git add .		        // Adiciona todos os arquivos na pasta atual.
+git add -A		        // Adiciona todas as mudanças feitas independente, independente da pasta.
+
+git reset		        // Desfazer o ADD (remover do index).
+git reset <arquivo>     // Desfazer o ADD (remover do index).
+
+git status              // Mostra as alterações.
+git diff                // Mostra as alterações dentro de um arquivo.
+
