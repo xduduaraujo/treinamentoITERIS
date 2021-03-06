@@ -18,3 +18,25 @@ git reset <arquivo>     // Desfazer o ADD (remover do index).
 git status              // Mostra as alterações.
 git diff                // Mostra as alterações dentro de um arquivo.
 
+git commit -m "comentários das alterações" // Dá o commit.
+git push                // Envia o commit para o repositório.
+git fetch               // Verifica se tem atualizações novas no repositório remoto.
+git pull                // Executa o git fetch para verificação e da o update a partir do repositório remoto.
+
+git branch funcionalidade_x         // Cria uma nova branch
+git checkout funcionalidade_x       // Mudando de branch
+git checkout -b funcionalidade_x    // Cria e muda de branch em um único comando
+git branch -d funcionalidade_x      // Remove a branch local
+
+git push --set-upstream origin <funcionalidade_x>   // Envia a branch para o repositório remoto
+git push -u origin <funcionalidade_x>               // Envia a branch para o repositório remoto
+
+*** Conflitos ***
+
+git rm <arquiv>                     // Remove um arquivo.
+git chekout --theirs <arquivo>      // Aceita alterações remotas.
+git checkout --ours <arquivo>       // Aceita alterações locais.
+git merge --continue                // Conclui o conflito com mensagem automática.
+git commit -m "mensagem"            // Conclui o conflito com uma nova mensagem.
+git merge --abort                   // Desfaz tentativa de merge.
+
