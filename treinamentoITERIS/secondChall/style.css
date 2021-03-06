@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+}
+
+div{
+
+}
+
+div#red {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+}
+
+div#orange {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    height: 25vh;
+}
+
+div#yellowGreen{
+    height: 12.5vh;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div#yellow {
+    background-color: yellow;
+}
+
+div#green{
+    background-color: green;
+    align-items: center;
+}
+
+div#bluePurple{
+    height: 12.5vh;
+    margin: 0px;
+    display: flex;
+    width: 100%;
+}
+
+div#blue{
+    background-color: blue;
+    width: 50%;
+}
+
+div#purple{
+    background-color: purple;
+    width: 50%;
+}
+
+

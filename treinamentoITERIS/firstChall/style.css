@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+}
+
+div {
+    text-align: center;
+    height: 25vh;
+}
+
+
+div#red {
+    background-color: red;
+}
+
+div#orange {
+    background-color: orange;
+}
+
+div#yellow{
+    background-color: yellow;
+}
